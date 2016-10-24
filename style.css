@@ -1,0 +1,132 @@
+/*
+font-family: 'Raleway', sans-serif;
+*/
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  display: inline-block;
+  padding-top: 20px;
+  padding-left: 60px;
+}
+
+.logo h1 {
+  display: inline;
+  padding-top: 20px;
+  font-weight: 100;
+}
+
+.logo h1 > span {
+  font-weight: 500;
+}
+
+.logo h1 > span.trade {
+  font-size: 11px;
+  position: relative;
+  bottom: 5px;
+}
+
+nav {
+  background-color: #FF7C00;
+  height: 70px;
+  color: #FFF;
+}
+
+nav ul {
+  display: inline;
+  float: right;
+}
+
+nav li {
+  display: inline-block;
+  padding-top: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #FFF;
+  padding-right: 30px;
+  font-size: 10px;
+}
+
+.search input {
+  float: right;
+  background-color: #eaeaea;
+  border: none;
+  height: 40px;
+  width: 200px;
+  margin-right: 50px;
+  margin-top: 3px;
+}
+
+::-webkit-input-placeholder {
+  padding-left: 15px;
+}
+
+/* main section */
+
+section img {
+  height: 400px;
+  float: left;
+  padding-top: 50px;
+}
+
+section h1 {
+  font-weight: 100;
+  float: right;
+  width: 45%;
+  color: #F69533;
+  padding-top: 100px;
+  padding-right: 35px;
+  font-size: 30px;
+  line-height: 37px;
+}
+
+section h1 > span.bold {
+  font-weight: 500;
+}
+
+section h1 > span.trade {
+  font-size: 11px;
+  bottom: 15px;
+  position: relative;
+
+}
+
+section h1 > span.turquoise {
+  color: #7ACAC7;
+  font-weight: 500;
+}
+
+section button {
+  clear: both;
+  margin-right: 30px;
+}
+
+section button.orange {
+  background-color: #F69533;
+  border: none;
+  color: #FFF;
+  height: 40px;
+  width: 175px;
+  margin-top: 30px;
+}
+
+section button.blue {
+  background-color: #7ACAC7;
+  border: none;
+  color: #FFF;
+  height: 40px;
+  width: 175px;
+}
+
+footer {
+  background-color: #7ACAC7;
+  height: 90px;
+  clear: both;
+  margin-top: 450px;
+}
